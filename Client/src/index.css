@@ -1,0 +1,302 @@
+* {
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  box-sizing: border-box;
+  color: #333;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.clearfix {
+  clear: both;
+} 
+
+.row {
+  margin-right: -15px;
+  margin-left: -15px;
+  /* display: block;
+  clear: both; */
+}
+
+/* .row::after {
+  clear: both;
+} */
+
+.col-lg-1,.col-lg-10,.col-lg-11,.col-lg-12,.col-lg-2,.col-lg-3,.col-lg-4,.col-lg-5,.col-lg-6,.col-lg-7,.col-lg-8,.col-lg-9,.col-md-1,.col-md-10,.col-md-11,.col-md-12,.col-md-2,.col-md-3,.col-md-4,.col-md-5,.col-md-6,.col-md-7,.col-md-8,.col-md-9,.col-sm-1,.col-sm-10,.col-sm-11,.col-sm-12,.col-sm-2,.col-sm-3,.col-sm-4,.col-sm-5,.col-sm-6,.col-sm-7,.col-sm-8,.col-sm-9,.col-xs-1,.col-xs-10,.col-xs-11,.col-xs-12,.col-xs-2,.col-xs-3,.col-xs-4,.col-xs-5,.col-xs-6,.col-xs-7,.col-xs-8,.col-xs-9 {
+  position: relative;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px
+}
+
+.col-xs-1,.col-xs-10,.col-xs-11,.col-xs-12,.col-xs-2,.col-xs-3,.col-xs-4,.col-xs-5,.col-xs-6,.col-xs-7,.col-xs-8,.col-xs-9 {
+  float: left
+}
+
+.col-xs-12 {
+  width: 100%;
+}
+
+.col-xs-8 {
+  width: 66.66666667%;
+}
+
+.searchBar>div {
+  margin-top: 30px
+}
+
+.searchBar>div>div {
+  position: relative;
+  background-color: #2ca9e2;
+  border-radius: 12px;
+  padding: 11px 0 1px;
+  overflow: hidden
+}
+
+.searchBar>div>div i.el-icon-search {
+  position: absolute;
+  color: #000;
+  opacity: .15;
+  font-size: 80px;
+  top: -5px;
+  left: 31px;
+  z-index: 0
+}
+
+.searchBar {
+  font-size: 22px;
+  color: #fff;
+  font-weight: 700;
+  height: 101px;
+}
+
+.searchBar ul {
+  text-align: center;
+  position: relative
+}
+
+.searchBar ul li {
+  display: inline-block;
+  margin: 0 6px
+}
+
+.searchBar button {
+  border-radius: 12px;
+  background-color: #ff6609;
+  color: #fff;
+  font-size: 22px;
+  padding: 5px 35px;
+  position: relative;
+  top: -2px;
+  cursor: pointer;
+}
+
+.searchBar button:hover {
+  color: #fff
+}
+
+.searchBar button span {
+  top: 5px;
+  margin-right: 8px
+}
+
+.searchBar select {
+  border-radius: 12px;
+  padding: 6px 60px 6px 20px;
+  font-size: 22px;
+  color: #04689a;
+  border: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none
+}
+
+.searchBar .selectBox {
+  position: relative
+}
+
+.searchBar .selectBox i {
+  position: absolute;
+  top: 14px;
+  right: 14px;
+  font-size: 16px;
+  color: #04689a
+}
+
+.head_title {
+  margin-bottom: 40px;
+  position: relative
+}
+
+.text-center {
+  text-align: center;
+}
+.head_title::after {
+    content: "";
+    width: 120px;
+    height: 6px;
+    border-radius: 12px;
+    background-color: #ff5520;
+    position: absolute;
+    bottom: 0;
+}
+
+.head_title.text-center::after {
+    left: 50%;
+    margin-left: -60px;
+}
+
+.head_title h2 {
+  font-size: 36px;
+  color: #000;
+  font-family: Quicksand;
+  font-style: normal;
+  font-weight: 700;
+  padding: 10px 0 15px;
+  margin: 0;
+  text-transform: uppercase
+}
+
+.join_vuihoc .four-step {
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 2px 33px 0 rgba(176,192,237,.33);
+  padding: 0;
+}
+
+.join_vuihoc .four-step .step {
+  padding: 0
+}
+
+.join_vuihoc .four-step .step .header {
+  position: relative;
+  height: 72px
+}
+
+.join_vuihoc .four-step .step.one .header {
+  background-color: #ffba00
+}
+
+.join_vuihoc .four-step .step.two .header {
+  background-color: #ff6609
+}
+
+.join_vuihoc .four-step .step.three .header {
+  background-color: #1dc2da
+}
+
+.join_vuihoc .four-step .step.four .header {
+  background-color: #327ad5
+}
+
+.join_vuihoc .four-step .step .header .title {
+  font-size: 36px;
+  color: #fff;
+  text-align: center;
+  padding-top: 16px;
+  position: relative;
+  left: 15px;
+  margin-top: 0;
+  margin-bottom: 10px;
+  font-family: Quicksand;
+  font-weight: 700;
+  line-height: 1.1
+}
+
+.join_vuihoc .four-step .step .header span {
+  position: absolute;
+  left: -25px;
+  top: -6px;
+  font-size: 78px;
+
+}
+
+.join_vuihoc .four-step .step .header span.el-icon-caret-bottom {
+  display: none
+}
+
+.join_vuihoc .four-step .step.two .header span {
+  color: #ffba00
+}
+
+.join_vuihoc .four-step .step.three .header span {
+  color: #ff6609
+}
+
+.join_vuihoc .four-step .step.four .header span {
+  color: #1dc2da
+}
+
+.join_vuihoc .four-step .step .content {
+  height: 105px;
+  padding-top: 38px;
+  text-align: center;
+  border-right: 1px #d1d1d1 solid;
+  background: #fff
+}
+
+.join_vuihoc .four-step .step.four .content {
+  border-right: none
+}
+
+.join_vuihoc .four-step .step .content i {
+  font-size: 22px
+}
+
+.join_vuihoc .four-step .step .content span {
+  font-family: Quicksand;
+  font-size: 20px;
+  font-weight: 700;
+  margin-left: 2px;
+  color: #000;
+  text-align: center
+}
+
+.bodyItem {
+  padding: 50px 0 0;
+}
+
+.container {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto
+}
+
+.container-fluid {
+  padding-left: -15px;
+  padding-right: -15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.col-xs-3 {
+  width: 25%;
+  float: left;
+  position: relative;
+  min-height: 1px;
+  padding-right: -15px;
+  padding-left: -15px;
+}
+
+.el-input__icon.el-icon-fas {
+  font-family: 'Font Awesome 5 Free' !important;
+}
+
+.el-input__icon.el-icon-fab {
+  font-family: 'Font Awesome 5 Brands' !important;
+}

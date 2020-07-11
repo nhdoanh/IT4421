@@ -1,0 +1,77 @@
+footer.homeFooter {
+    min-height: 465px;
+    background: url(../../../public/footer_img_svg.png);
+}
+
+footer.homeFooter>div>div {
+    padding-top: 25px;
+    border-top: 1px #c4c4c4 solid
+}
+
+footer.homeFooter .left {
+    padding-left: 0;
+    text-align: justify
+}
+
+footer.homeFooter .left img {
+    margin-top: 30px
+}
+
+footer.homeFooter .left .fn-title {
+    color: #04689a;
+    font-family: Quicksand;
+    font-size: 48px;
+    margin-bottom: 20px;
+    margin-top: 10px
+}
+
+footer.homeFooter .left p {
+    width: 90%;
+    font-size: 14px;
+    margin-bottom: 15px
+}
+
+footer.homeFooter .right {
+    padding-right: 0
+}
+
+footer.homeFooter .right .head_title {
+    margin-bottom: 26px
+}
+
+footer.homeFooter .right .head_title .fn-title {
+    font-size: 36px;
+    color: #04689a;
+    font-weight: 700;
+    padding: 10px 0
+}
+
+footer.homeFooter .right .spliter {
+    background-color: #04689a
+}
+
+footer.homeFooter .bct {
+    position: relative
+}
+
+.col-sm-6 {
+    width: 50%;
+    float: left;
+}
+
+.fb_iframe_widget {
+    width: 100%;
+    display: inline-block;
+    position: relative;
+}
+
+.fb_iframe_widget span {
+    display: inline-block;
+    position: relative;
+    text-align: justify;
+}
+
+/* .fb-comments.fb_iframe_widget,.fb_iframe_widget span,.fb_iframe_widget span iframe {
+    width: 100%!important
+} */
+

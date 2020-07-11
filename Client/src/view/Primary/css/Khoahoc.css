@@ -1,0 +1,278 @@
+.breadcrumb_sec .headingBackground {
+    background-color: #2ca9e2;
+    height: 140px;
+}
+ 
+.breadcrumb_sec .breadcrumbBar {
+    background-color: #e5f4f9;
+    margin-bottom: 7px;
+}
+
+.study-wrapper .breadcrumbBar {
+    margin-bottom: 0;
+}
+
+.breadcrumb {
+    padding: 8px 15px;
+    margin-bottom: 20px;
+    list-style: none;
+    background-color: #f5f5f5;
+    border-radius: 4px;
+}
+
+.breadcrumb_sec .breadcrumb {
+    font-family: Quicksand;
+    font-size: 20px;
+    background-color: transparent;
+    margin: 0;
+    padding: 11px 15px 9px 0;
+}
+
+.breadcrumb>li+li:before {
+    padding: 0 5px;
+    color: #ccc;
+    content: "/\00a0";
+}
+
+.breadcrumb_sec .breadcrumb>li+li:before {
+    color: #000;
+    padding: 0 5px 0 5px;
+}
+ .course-syllabus .syllabus .syllabus-box h3.heading {
+    background: #2ca9e2;
+    color: #fff;
+    padding: 25px 85px 25px 25px;
+    position: relative;
+    margin-bottom: 0;
+    margin-top: 0;
+    cursor: pointer;
+    font-size: 22px;
+    line-height: 27px;
+}
+
+.course_detail_sec {
+    font-family: Quicksand;
+}
+
+.course_detail_sec>.container {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.course_detail_sec .right {
+    position: relative;
+    top: -115px;
+}
+
+.course_detail_sec .right .tray .thumbnail {
+    padding: 5px 5px 15px 5px;
+    box-shadow: 0 2px 33px rgba(176,192,237,.33);
+    border: 1px solid #d1d1d1;
+    margin-bottom: 48px;
+}
+
+.thumbnail {
+    padding: 0;
+    border-radius: 12px;
+}
+
+.thumbnail {
+    display: block;
+    padding: 4px;
+    margin-bottom: 20px;
+    line-height: 1.42857143;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    -webkit-transition: border .2s ease-in-out;
+    -o-transition: border .2s ease-in-out;
+    transition: border .2s ease-in-out;
+}
+
+.study-wrapper .course_detail_sec .right .tray .thumbnail .cover {
+    padding-top: 56.25%;
+    position: relative;
+}
+
+.course_detail_sec .right .tray .thumbnail .cover {
+    border-radius: 12px;
+    overflow: hidden;
+    height: 200px;
+}
+
+.study-wrapper .course_detail_sec .right .tray .thumbnail .cover img, .study-wrapper .course_detail_sec .right .tray .thumbnail .cover iframe {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.course_detail_sec .right .tray .thumbnail .content {
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-top: 13px;
+}
+
+.course_detail_sec .right .tray .thumbnail .content p.old-price {
+    font-size: 22px;
+    text-align: right;
+    color: #828282;
+    margin-bottom: -12px;
+}
+
+.course_detail_sec .right .tray .thumbnail .content p.old-price>span {
+    display: inline-block;
+    position: relative;
+    padding: 0 6px;
+}
+
+.course_detail_sec .right .tray .thumbnail .content p.old-price span.line-through {
+    width: 100%;
+    position: absolute;
+    border-bottom: 1px #828282 solid;
+    left: 0;
+    top: 15px;
+}
+
+.study-wrapper .course_detail_sec .right .tray .thumbnail .content p.old-price span.line-through {
+    top: 49%;
+}
+
+.course_detail_sec .right .tray .thumbnail .content p.new-price {
+    font-size: 15px;
+    font-weight: 700;
+    text-align: right;
+    color: #1b3043;
+    height: 60px;
+    margin-bottom: 7px;
+}
+
+.course_detail_sec .right .tray .thumbnail .content p.new-price span.price {
+    font-size: 48px;
+    margin-left: 5px;
+}
+
+.course_detail_sec .right .tray .thumbnail .content p.new-price span.price span.currency {
+    position: relative;
+    top: -17px;
+    font-size: 20px;
+    margin-left: 2px;
+}
+
+.course_detail_sec .right .tray .thumbnail .content p.remaining {
+    font-size: 15px;
+    color: #ff5620;
+    font-weight: 700;
+    text-align: right;
+    margin-bottom: 18px;
+}
+
+.action-btn {
+    height: 48px;
+    border-radius: 12px;
+    box-shadow: inset 0 -6px 0 0 rgba(0,0,0,.25);
+    font-family: Quicksand;
+    font-size: 22px;
+    border: none;
+    color: #fff;
+    text-shadow: 0 2px 1px rgba(0,0,0,.25);
+}
+
+.course_detail_sec .right .tray .thumbnail .content a.action-btn {
+    width: 100%;
+    background: #ff5620;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+a.action-btn {
+    padding: 9px 6px 0;
+    display: inline-block;
+    color: #fff!important;
+    cursor: pointer;
+    text-align: center;
+    background-color: #d8d8d8;
+}
+
+.course_detail_sec .right .tray .thumbnail .content a.action-btn span:first-child {
+    width: 18%;
+    position: relative;
+    top: -2px;
+}
+
+.action-btn span:first-child {
+    width: 38px;
+    display: inline-block;
+}
+
+.action-btn span:last-child {
+    width: 134px;
+    display: inline-block;
+    position: relative;
+    top: -2px;
+}
+
+.study-wrapper .course_detail_sec .right .tray .thumbnail .detail {
+    padding-top: 15px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.course_detail_sec .left {
+    padding-top: 20px;
+    padding-right: 5px;
+}
+
+@media (min-width: 768px) {
+.col-md-4 {
+    width: 33.333333%;
+}
+}
+
+@media (min-width: 1200px) {
+.container {
+    width: 1170px;
+}
+}
+
+.input-group-addon, .input-group-btn {
+    width: 1%;
+    white-space: nowrap;
+    vertical-align: middle;
+}
+
+.input-group .form-control, .input-group-addon, .input-group-btn {
+    display: table-cell;
+}
+
+.study-wrapper .search-form {
+    position: relative;
+    display: none;
+}
+
+.input-group-addon:last-child {
+    border-left: 0;
+}
+
+.sticky-bar .input-group:hover {
+    color: white;
+    background-color: orange;
+}
+
+.course_detail_sec .right .tray .thumbnail .content a.action-btn span:last-child {
+    width: 71%;
+}
+
+p {
+    margin: 0 0 10px;
+}
+
+.study-wrapper .course_detail_sec .right .tray .thumbnail .content p.remaining {
+    margin-bottom: 15px;
+}
+
+.course_detail_sec .extra-btn {
+    margin-top: 20px;
+    display: none;
+}

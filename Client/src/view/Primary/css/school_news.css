@@ -1,0 +1,47 @@
+.school_news {
+    padding-bottom: 50px;
+    background: #216999 url("../../../public/bg_kids.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover
+}
+
+.statistics {
+    margin-top: 70px;
+    margin-bottom: 15px;
+    background: #216999 url("../../../public/bg_kids.png");
+    background-position: center 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 50px
+}
+
+.statistics .box {
+    color: #fff;
+    height: 202px;
+    text-align: center;
+    padding-top: 30px
+}
+
+.statistics .box .counting {
+    font-size: 72px;
+    margin-bottom: 0;
+    font-family: Quicksand;
+    font-weight: 700
+}
+
+.statistics .box .count-label {
+    font-family: Quicksand;
+    font-size: 28px;
+    font-weight: 700;
+    margin-top: 4px
+}
+
+.no-padding-col {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.clearfix {
+    clear: both;
+}
